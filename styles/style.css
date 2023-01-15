@@ -7,6 +7,8 @@ body{
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
     font-family: 'Work Sans', sans-serif;
+
+  
    
    
 }
@@ -130,7 +132,7 @@ body{
 }
 
 .title-discript p{
-    width: 180%;
+    width: 100%;
     color: #727272;
     font-weight: 400;
     font-size: 16px;
@@ -186,14 +188,45 @@ body{
     height: 600px;
 }
 
+.feature-title button{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    margin-left: 20%;
+    height: 100px;
+    width: 200px;
+
+}
+
+#exprince-btn button{
+    position: absolute;
+    margin-left: 50%;
+    margin-top: -10%;
+    height: 150px;
+    width: 300px;
+    background-color: #FF900E;
+    border-style: none;
+    border-radius: 10px;
+    color: white;
+}
+
+
+#year{
+    font-weight: 700;
+    font-size: 42px;
+}
+#exprince{
+    font-weight: 500;
+    font-size: 20px;
+}
+
 .color{
     height: 80px;
     width: 5px;
     border: 2px solid #FF900E;
     background-color: #FF900E;
     position: absolute;
-    margin: 50px 120px;
-    
+    margin: 45px 120px;
 }
 
 .feature-you-will h2{
@@ -300,17 +333,12 @@ body{
     position: relative;
     left: 55%;
     margin-top:-42%;
- 
 }
 .feature-image img{
     width: 450px;
     height: 650px;
 }
 /* second title style end  */
-
-
-
-/* 10 years button  */
 
 
 /* some facts */
@@ -325,6 +353,7 @@ body{
 .some-facts h3{
     font-weight: 700;
     font-size: 45px;
+    margin-left: 3%;
 }
 
 .some-facts p{
@@ -332,13 +361,13 @@ body{
     font-weight: 400;
     font-size: 16px;
     color: #727272; 
-    margin-left: 3%; 
+    margin-left: 4%; 
 }
 
 /* point area  */
 .point-table{
  
-    margin: 15% 0;
+    margin: 10% 0;
     display: flex;
     gap: 20px;
     justify-content: center;
@@ -351,19 +380,71 @@ body{
     border: 2px solid rgb(247, 228, 65);
     border-radius: 5px;
     justify-content: center;
-    height: 200px;
-    width: 240px;
+    height: 180px;
+    width: 200px;
+
+}
+
+
+/* hover  */
+.point-table :hover{
+
+    transition: 0.5s;
+    background-color: lightcoral;
+}
+
+
+/* our-sponsports */
+.our-sponsports{
+    text-align: center;
+
+}
+
+.our-sponsports h3{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.our-sponsports p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    width: 500px;
+    height: 50px;
+    margin-left: 32%;
+    margin-top: -2%;
+}
+
+.brand-icone{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 5%;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+.last{
+    font-weight: 400;
+    font-size: 16px;
+    color: #424242;
+    text-align: center;
+    margin-top: 5%;
+
 }
 
 
 
 
-/* Responsive area  */
+
+/* Responsive area ---------------------------------------------------------------- */
 
 
 @media screen and (max-width: 576px) {
 
-    .G3-Architects h1{
+    .G3-Architects h1 {
+        
         position:absolute;
         margin-left: 8%;
         margin-top: 5px;
@@ -373,7 +454,7 @@ body{
     }
     
     .brand-name h2{
-        margin-top: -80px;
+        margin-top: 100px;
         margin-left: -120px;
         font-size: 30px;
     }
@@ -397,14 +478,14 @@ body{
         width: 350px;
         height: 200px;
         margin-top:35%;
-        margin-left: 2%;
+        margin-left: 1%;
     }
 
     .multipul-img{
         display: block;
-        margin-left: -5%;
+        margin-left: -7%;
         margin-top:100%;
-        background-color: #c0af9b;
+        /* background-color: #c0af9b; */
         text-align: center;
         margin-top: 110%;
       
@@ -441,23 +522,30 @@ body{
 
     .feature-title{
 
-        margin-top: 350%;
+        margin-top: 370%;
         margin-left:55%;
-        width: 50px;
-        font-size: small;
+        width: 60px;
         text-align: center;
-        justify-content: center;
+        justify-content: center
+    
+    }
+
+    .feature-you-will h2{
+        width: 300px;
+        font-size: 35px;
+        margin-left: 15px;
     }
 
     .color{
-        margin-left: 0;
+        display: none;
 
-    }
+    }   
 
     .feature-you-will p{
-        width: 400px;
+        width: 380px;
         height: 100px;
-        margin-left: 4%;
+        margin-left: -9%;
+        margin-top: -50px;
         text-align: center;
         padding: 10px;
         color: #727272;
@@ -467,16 +555,17 @@ body{
         text-align: center;
         height: 20px;
         width: 300px;
-        margin-left: 10%;
+        margin-left: 5%;
     }
 
     .desktop p{
         
-        width: 400px;
+        width: 380px;
         height: 100px;
+        margin-left: -9%;
+        margin-top: -20px;
         text-align: center;
-        margin-left: 4%;
-        padding: 2px;
+        padding: 10px;
         color: #727272;
     }
 
@@ -484,7 +573,7 @@ body{
         text-align: center;
         height: 20px;
         width: 300px;
-        margin-left: 10%;
+        margin-left: 5%;
     }
 
     
@@ -497,12 +586,101 @@ body{
         color: #727272;
     }
 
-    .some{
-        margin-top: 10%;
-        height: 52px;
-        width: 542px;
+    .awesome h3{
+        text-align: center;
+        height: 20px;
+        width: 300px;
         margin-left: 10%;
     }
+
+    .awesome p{
+        width: 400px;
+        height: 100px;
+        text-align: center;
+        margin-left: 4%;
+        padding: 2px;
+        color: #727272;
+    }
+
+    
+    .super h3{
+        text-align: center;
+        height: 20px;
+        width: 300px;
+        margin-left: 10%;
+    }
+
+    .super p{
+        width: 400px;
+        height: 100px;
+        text-align: center;
+        margin-left: 4%;
+        padding: 2px;
+        color: #727272;
+    }
+
+
+    .some{
+        margin-top: 100%;
+        height: 52px;
+        width: 542px;
+        margin-left: 15%;
+    }
+
+    .some-facts p{
+        width: 200px;
+        text-align: center;
+        font-weight: 400;
+        font-size: 16px;
+        color: #727272; 
+        margin-left: 8%; 
+        margin-bottom: 20%;
+    }
+    
+
+   
+/* -------------------------- */
+    /* problem image */
+    .feature-image{
+        position: relative;
+        left: 55%;
+        margin-top:-42%;
+     
+    }
+    .feature-image img{
+        display: none;
+        width: 450px;
+        height: 650px;
+    }
+    /* ------------------------------ */
+
+    /* point area  */
+    .point-table{
+ 
+        margin: 15% 0;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 20%;
+        gap: 5px;
+        justify-content: center;
+        text-align: center;
+        color: #424242;
+
+    }
+
+    .point-mark{
+        height: 150px;
+        width: 150px;
+        margin-left: 10%;
+        margin-top: 20%;
+        color: #424242;
+    }
+
+    .menu{
+        display: none;
+    }
+
+
 
 
 
