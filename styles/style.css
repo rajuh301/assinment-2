@@ -26,8 +26,9 @@ body{
 
 }
 
-#menu{
-    display:hide ;
+.menu-class{
+    visibility: hidden;
+    
 }
 
 .menu a{
@@ -453,6 +454,7 @@ body{
     }
 
     #menu{
+        visibility:visible;
         position: absolute;
         margin-left: 75%;
         margin-top: 7%;
@@ -725,10 +727,6 @@ body{
       
 
     }
-
-
-
-
 
 
 }
