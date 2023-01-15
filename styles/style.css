@@ -7,10 +7,6 @@ body{
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
     font-family: 'Work Sans', sans-serif;
-
-  
-   
-   
 }
 
 
@@ -28,6 +24,10 @@ body{
     /* main left margin is 673px */
     margin-top: 63px;
 
+}
+
+#menu{
+    display:hide ;
 }
 
 .menu a{
@@ -215,6 +215,7 @@ body{
     font-weight: 700;
     font-size: 42px;
 }
+
 #exprince{
     font-weight: 500;
     font-size: 20px;
@@ -266,8 +267,6 @@ body{
 
 .drag h3{
     padding-top: 50px;
-
-
     font-weight: 600;
     font-size: 20px;
     margin-top: -60px;
@@ -452,6 +451,14 @@ body{
         font-size: 45px;
         color: #131313;
     }
+
+    #menu{
+        position: absolute;
+        margin-left: 75%;
+        margin-top: 7%;
+        border-style: none;
+        text-align: end;
+    }
     
     .brand-name h2{
         margin-top: 100px;
@@ -578,11 +585,12 @@ body{
 
     
     .drag p{
-        width: 400px;
+        width: 380px;
         height: 100px;
+        margin-left: -9%;
+        margin-top: -20px;
         text-align: center;
-        margin-left: 4%;
-        padding: 2px;
+        padding: 10px;
         color: #727272;
     }
 
@@ -590,15 +598,16 @@ body{
         text-align: center;
         height: 20px;
         width: 300px;
-        margin-left: 10%;
+        margin-left: 5%;
     }
 
     .awesome p{
-        width: 400px;
+        width: 380px;
         height: 100px;
+        margin-left: -9%;
+        margin-top: -20px;
         text-align: center;
-        margin-left: 4%;
-        padding: 2px;
+        padding: 10px;
         color: #727272;
     }
 
@@ -607,21 +616,22 @@ body{
         text-align: center;
         height: 20px;
         width: 300px;
-        margin-left: 10%;
+        margin-left: 5%;
     }
 
     .super p{
-        width: 400px;
+        width: 380px;
         height: 100px;
+        margin-left: -9%;
+        margin-top: -20px;
         text-align: center;
-        margin-left: 4%;
-        padding: 2px;
+        padding: 10px;
         color: #727272;
     }
 
 
     .some{
-        margin-top: 100%;
+        margin-top: 120%;
         height: 52px;
         width: 542px;
         margin-left: 15%;
@@ -635,6 +645,7 @@ body{
         color: #727272; 
         margin-left: 8%; 
         margin-bottom: 20%;
+       
     }
     
 
@@ -660,12 +671,12 @@ body{
         margin: 15% 0;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        margin-top: 20%;
+        margin-top: 25%;
         gap: 5px;
         justify-content: center;
         text-align: center;
         color: #424242;
-
+        margin-left: 6%;
     }
 
     .point-mark{
@@ -679,6 +690,42 @@ body{
     .menu{
         display: none;
     }
+
+    #exprince-btn button{
+        position: absolute;
+        height: 50px;
+        width: 150px;
+        margin-top: 90%;
+        margin-left: 35%;
+    }
+
+    #year{
+        font-size: 20px;
+    }
+
+    .our-sponsports{
+        margin-left: 10%;
+    }
+    .our-sponsports p{
+        margin-left:10%;
+        width: 250px;
+    }
+
+    .brand-icone{
+        margin-top: 100px;
+        display: flex;
+        gap: 20px;
+        text-align: center;
+  
+    }
+
+    .icone img{
+        height: 30px;
+        width: 50px;
+      
+
+    }
+
 
 
 
