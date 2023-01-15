@@ -211,6 +211,7 @@ body{
     width: 586px;
     padding: 5px;
     margin-top: -5px;
+    color: #727272;
 }
 .desktop h3{
     padding-top: 50px;
@@ -227,6 +228,7 @@ body{
     margin-left: 25px;
     font-weight: 400;
     font-size: 16px;
+    color: #727272;
 }
 
 .drag h3{
@@ -247,6 +249,7 @@ body{
     margin-left: 25px;
     font-weight: 400;
     font-size: 16px;
+    color: #727272;
 }
 
 .awesome h3{
@@ -266,6 +269,7 @@ body{
     margin-left: 25px;
     font-weight: 400;
     font-size: 16px;
+    color: #727272;
 }
 
 .super h3{
@@ -286,6 +290,7 @@ body{
     margin-left: 25px;
     font-weight: 400;
     font-size: 16px;
+    color: #727272;
 
 }
 
@@ -302,6 +307,57 @@ body{
     height: 650px;
 }
 /* second title style end  */
+
+
+
+/* 10 years button  */
+
+
+/* some facts */
+.some{
+    margin-top: 3%;
+    height: 52px;
+    width: 542px;
+    margin-left: 10%;
+}
+
+
+.some-facts h3{
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.some-facts p{
+    margin-top: -30px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272; 
+    margin-left: 3%; 
+}
+
+/* point area  */
+.point-table{
+ 
+    margin: 15% 0;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+.point-mark{
+    box-shadow: 10px 10px 10px gray;
+    padding-top: 50px;
+    border: 2px solid rgb(247, 228, 65);
+    border-radius: 5px;
+    justify-content: center;
+    height: 200px;
+    width: 240px;
+}
+
+
+
+
 /* Responsive area  */
 
 
@@ -375,6 +431,7 @@ body{
         font-size: 16px;
         margin-left: 0%;
         width: 300px;
+        color: #727272;
     }
 
     .second-title button{
@@ -383,21 +440,27 @@ body{
     }
 
     .feature-title{
+
         margin-top: 350%;
-        margin-left:35%;
+        margin-left:55%;
+        width: 50px;
+        font-size: small;
         text-align: center;
         justify-content: center;
     }
 
     .color{
         margin-left: 0;
+
     }
 
     .feature-you-will p{
         width: 400px;
         height: 100px;
+        margin-left: 4%;
         text-align: center;
         padding: 10px;
+        color: #727272;
     }
 
     .desktop h3{
@@ -408,18 +471,20 @@ body{
     }
 
     .desktop p{
+        
         width: 400px;
         height: 100px;
         text-align: center;
-        margin-left: -0.5%;
+        margin-left: 4%;
         padding: 2px;
+        color: #727272;
     }
 
     .drag h3{
         text-align: center;
         height: 20px;
         width: 300px;
-        margin-left: 15%;
+        margin-left: 10%;
     }
 
     
@@ -427,9 +492,18 @@ body{
         width: 400px;
         height: 100px;
         text-align: center;
-        margin-left: -0.5%;
+        margin-left: 4%;
         padding: 2px;
+        color: #727272;
     }
+
+    .some{
+        margin-top: 10%;
+        height: 52px;
+        width: 542px;
+        margin-left: 10%;
+    }
+
 
 
 }
