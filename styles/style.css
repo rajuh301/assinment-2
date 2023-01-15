@@ -7,13 +7,17 @@ body{
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
     font-family: 'Work Sans', sans-serif;
+   
+   
 }
+
 
 /* Top-site */
 .top-class{
     display: flex;
     
 }
+
 
 .menu{
     /* margin-right: 240px; */
@@ -116,7 +120,188 @@ body{
     border-radius: 10px;
 }
 
+.second-title{
+    position: absolute;
+    width: 300px;
+    height: 304px;
+    margin-left: 47%;
+    margin-top:7%;
+    /* background-color: #320eff; */
+}
 
+.title-discript p{
+    width: 180%;
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.second-title button{
+    position: absolute;
+    width: 180px;
+    height: 64px;
+    background: #FF900E;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 20px;
+    border-style: none;
+    color: white;
+    margin-left:0%;
+
+}
+
+
+
+
+
+/* title style */
+.quick{
+    font-weight: 500;
+    font-size: 30px;
+    color: #727272;
+}
+
+.of-out{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-weight: 500;
+    font-size: 42px;
+    color: #3b3737;
+    font-style: bold;
+}
+
+.feature{
+    color: #FF900E;
+    font-size: 38px;
+}
+
+/* feuture banner section  */
+
+.feature-title{
+    display: grid;
+    grid-template-columns: repeat(1fr);
+    margin-top: 40%;
+    margin-left: 10%;
+    /* background-color: #c9b5a0; */
+    width: 250px;
+    height: 600px;
+}
+
+.color{
+    height: 80px;
+    width: 5px;
+    border: 2px solid #FF900E;
+    background-color: #FF900E;
+    position: absolute;
+    margin: 50px 120px;
+    
+}
+
+.feature-you-will h2{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    height: 106px;
+    width: 468px;
+}
+
+.feature-you-will p{
+    font-weight: 400;
+    font-size: 16px;
+    height: 78px;
+    width: 586px;
+    padding: 5px;
+    margin-top: -5px;
+}
+.desktop h3{
+    padding-top: 50px;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: -60px;
+    margin-left: 25px;
+}
+
+.desktop p{
+    margin-top: -15px;
+    height: 78px;
+    width: 514px;
+    margin-left: 25px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.drag h3{
+    padding-top: 50px;
+
+
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: -60px;
+    margin-left: 25px;
+}
+
+.drag p{
+    margin-top: -15px;
+
+    height: 78px;
+    width: 514px;
+    margin-left: 25px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.awesome h3{
+    padding-top: 50px;
+
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: -60px;
+    margin-left: 25px;
+}
+
+.awesome p{
+    margin-top: -15px;
+
+    height: 78px;
+    width: 514px;
+    margin-left: 25px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.super h3{
+    padding-top: 50px;
+
+
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: -60px;
+    margin-left: 25px;
+}
+
+.super p{
+    margin-top: -15px;
+
+    height: 78px;
+    width: 514px;
+    margin-left: 25px;
+    font-weight: 400;
+    font-size: 16px;
+
+}
+
+
+
+.feature-image{
+    position: relative;
+    left: 55%;
+    margin-top:-42%;
+ 
+}
+.feature-image img{
+    width: 450px;
+    height: 650px;
+}
+/* second title style end  */
 /* Responsive area  */
 
 
@@ -156,7 +341,95 @@ body{
         width: 350px;
         height: 200px;
         margin-top:35%;
-        margin-left: 4%;
-    
+        margin-left: 2%;
     }
+
+    .multipul-img{
+        display: block;
+        margin-left: -5%;
+        margin-top:100%;
+        background-color: #c0af9b;
+        text-align: center;
+        margin-top: 110%;
+      
+    }
+      
+    .multipul-img img{
+        margin-top: 5%;
+    }
+
+    .second-title{
+        position: absolute;
+        width: 300px;
+        height: 304px;
+        margin-left: 10%;
+        text-align: center;
+        margin-top:2%;
+        /* background-color: #320eff; */
+    }
+
+    .title-discript p{
+        width: 180%;
+        color: #727272;
+        font-weight: 400;
+        font-size: 16px;
+        margin-left: 0%;
+        width: 300px;
+    }
+
+    .second-title button{
+        margin-left: -30%;
+        margin-top: 10%;
+    }
+
+    .feature-title{
+        margin-top: 350%;
+        margin-left:35%;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .color{
+        margin-left: 0;
+    }
+
+    .feature-you-will p{
+        width: 400px;
+        height: 100px;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .desktop h3{
+        text-align: center;
+        height: 20px;
+        width: 300px;
+        margin-left: 10%;
+    }
+
+    .desktop p{
+        width: 400px;
+        height: 100px;
+        text-align: center;
+        margin-left: -0.5%;
+        padding: 2px;
+    }
+
+    .drag h3{
+        text-align: center;
+        height: 20px;
+        width: 300px;
+        margin-left: 15%;
+    }
+
+    
+    .drag p{
+        width: 400px;
+        height: 100px;
+        text-align: center;
+        margin-left: -0.5%;
+        padding: 2px;
+    }
+
+
 }
