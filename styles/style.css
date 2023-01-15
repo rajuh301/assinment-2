@@ -1,0 +1,162 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Poppins:wght@500;600&family=Work+Sans:wght@700&display=swap');
+
+/* common style */
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* Top-site */
+.top-class{
+    display: flex;
+    
+}
+
+.menu{
+    /* margin-right: 240px; */
+    position: relative;
+    margin-left: 800px;  
+    /* main left margin is 673px */
+    margin-top: 63px;
+
+}
+
+.menu a{
+    padding-left: 20px;
+    text-decoration: none;
+    color:#424242 ;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.G3-Architects h1{
+    position:absolute;
+    height: 53px;
+    width: 303px;
+    margin-left: 150px;
+    /* main left margin is 228px */
+    margin-top: 50px;
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+/* brand-section */
+.brand-section{
+    
+    
+}
+
+.brand-name h2{
+    text-align: center;
+    height:200px;
+    width: 600px;
+
+    margin-left:350px ;
+    margin-top: 150px;
+    font-weight: 700;
+    font-size: 60px;
+    color: #131313;
+}
+.brand-description p{
+    margin-top: -50px;
+    margin-left: 250px ;
+    text-align: center;
+    height: 52px;
+    width: 868px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.explor-more button{
+    position: absolute;
+    width: 180px;
+    height: 64px;
+    background: #FF900E;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 20px;
+    border-style: none;
+    color: white;
+    margin-left: 42%;
+}
+
+/* main- image section */
+
+.main-img img{
+    width: 1000px;
+    height: 400px;
+    margin-top:10%;
+    margin-left: 12%;
+
+}
+
+/* second banner section  */
+.multipul-img{
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 10%;
+    width:430px ;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:1%;
+    /* background-color: #FF900E; */
+}
+
+
+.second-banner-img img{
+    height: 200px;
+    width: 200px;
+    padding-left: -20%;
+    border-radius: 10px;
+}
+
+
+/* Responsive area  */
+
+
+@media screen and (max-width: 576px) {
+
+    .G3-Architects h1{
+        position:absolute;
+        margin-left: 8%;
+        margin-top: 5px;
+        font-weight: 700;
+        font-size: 45px;
+        color: #131313;
+    }
+    
+    .brand-name h2{
+        margin-top: -80px;
+        margin-left: -120px;
+        font-size: 30px;
+    }
+
+    .brand-description p{
+        height: 100px;
+        width: 80%;
+        margin-left: 10%;
+        margin-top: -40%;
+
+    }
+
+    .explor-more button{
+        margin-top: 10%;
+        margin-left: 25%;
+    }
+
+
+    /* image section  */
+    .main-img img{
+        width: 350px;
+        height: 200px;
+        margin-top:35%;
+        margin-left: 4%;
+    
+    }
+}
